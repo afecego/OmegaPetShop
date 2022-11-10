@@ -1,4 +1,4 @@
-const Products = require('../models/products')
+const Products = require('../models/Products')
 
 function saveProduct(req, res) {
 	var myProduct = new Products(req.body);
@@ -14,7 +14,7 @@ function listAllData(req, res) {
 	if(!idProduct){
 		var result = Products.find({}).sort('name');
 	}else {
-		var result = Products.find({products: idProduct}).sort('name');
+		var result = Products.findById(idProduct);
 	}
 	result.exec(function(err, result) {
 		if(err) {

@@ -16,16 +16,13 @@
   "author": "Adrian Felipe Ceron Gonzalez",
   "license": "MIT",
   "dependencies": {
-    "bcrypt-nodejs": "^0.0.3",
-    "body-parser": "^1.20.1",
-    "connect-multiparty": "^2.2.0",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "jwt-simple": "^0.5.6",
-    "mogoose": "^0.0.1-security",
-    "moment": "^2.29.4",
-    "mongoose": "^6.6.5",
-    "mongoose-pagination": "^1.0.0"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
