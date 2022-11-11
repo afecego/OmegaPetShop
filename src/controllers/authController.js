@@ -48,7 +48,7 @@ exports.autenticarUsuario = async (req, res) => {
   } catch (error) {
     console.log("Hubo un error");
     console.log(error);
-    res.status(400).send("Hubo un error");
+    res.status(400).send("Hubo un error " + error);
   }
 };
 

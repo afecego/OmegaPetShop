@@ -119,6 +119,12 @@ export const CrearCuenta = () => {
   const onSubmitHandler = (e) => {
     e.preventDefault();
     crearCuentaAPI();
+    setUsuario({
+      nombre: '',
+      email: '',
+      password: '',
+      confirmar: ''
+    })
   }
 
   return (
