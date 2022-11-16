@@ -1,5 +1,4 @@
 const Products = require('../models/Products')
-
 function saveProduct(req, res) {
 	var myProduct = new Products(req.body);
 	myProduct.save((err, result) => {
