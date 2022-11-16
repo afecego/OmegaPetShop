@@ -3,6 +3,7 @@ var controllerProducts = require('../controllers/controllerProducts');
 const router = Router();
 
 router.post('/create', controllerProducts.saveProduct);
+router.get('/listall/',controllerProducts.listAllData);
 router.get('/listall/:idb',controllerProducts.listAllData);
 router.get('/search/:id',controllerProducts.searchData);
 router.put('/update/:id', controllerProducts.updateProduct);

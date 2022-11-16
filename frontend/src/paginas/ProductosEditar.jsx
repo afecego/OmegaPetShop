@@ -1,19 +1,18 @@
 import React from 'react'
-import { HomeWrapper } from '../components/HomeWrapper'
 import { Footer } from '../components/Footer'
 import { Navbar } from '../components/Navbar'
+import { ProductsEditarWrapper } from '../components/ProductsEditarWrapper'
 import { Sidebar } from '../components/Sidebar'
 
-export const Home = () => {
+export const ProductosEditar = () => {
   return (
     <div className="sidebar-mini">
-      <div className="wrapper">
+    <div className="wrapper">
         <Navbar />
         <Sidebar />
-        <HomeWrapper />
+        <ProductsEditarWrapper />
         <Footer />
-      </div>
     </div>
-
+</div>
   )
 }

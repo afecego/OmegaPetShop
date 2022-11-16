@@ -11,7 +11,8 @@ function saveProduct(req, res) {
 
 function listAllData(req, res) {
 	var idProduct = req.params.idb;
-	if(!idProduct){
+	
+	if(idProduct === undefined){
 		var result = Products.find({}).sort('name');
 	}else {
 		var result = Products.findById(idProduct);
@@ -84,7 +85,9 @@ function deleteProduct(req, res){
 					message: 'Product not found'
 				})
 			} else {
-				res.status(200).send(product);
+				res.json({
+					msg: "Producto eliminado"
+				})
 			}
 		}
 	})
