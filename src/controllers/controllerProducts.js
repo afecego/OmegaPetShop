@@ -8,7 +8,6 @@ function saveProduct(req, res) {
 		});
 	})
 };
-
 function listAllData(req, res) {
 	var idProduct = req.params.idb;
 	
