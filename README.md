@@ -70,7 +70,7 @@ To initialize the front, in the path "\OmegaPetShop\front\src\ execute the comma
 
 
 
-## Authorsa ✒️
+## Authors ✒️
 
 * **Juan Sebastián Gamboa** - [sebassena](https://github.com/afecego)
 * **Adrian Felipe Ceron Gonzalez** - [afecego](https://github.com/sebassena)
